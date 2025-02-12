@@ -1,0 +1,15 @@
+auto1.jpg
+1
+0
+auto2.jpg
+1
+0
+auto3.jpg
+1
+0
+sigma1.jpg
+1
+4
+sigma2.jpg
+0
+0
