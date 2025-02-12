@@ -1,0 +1,24 @@
+<Window x:Class="WpfApp17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp17"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Image x:Name="zdj" Source="sigma2.jpg" Height="200"/>
+        <UniformGrid Columns="3">
+            <Button Click="Poprzednie">Poprzednie</Button>
+            <TextBlock x:Name="liczbaWyswietlen"  HorizontalAlignment="Center">Liczba Wyswietlen: 0</TextBlock>
+            <Button Click="Nastepne">Nastepne</Button>
+        </UniformGrid>
+        <Button Width="100" Click="Polub">Polub</Button>
+        <TextBlock HorizontalAlignment="Center" x:Name="liczbaPolubien">Liczba Polubien: 0</TextBlock>
+        <DockPanel>
+            <Button HorizontalAlignment="Left" Width="60" Click="Zamknij">Dodaj</Button>
+            <Button HorizontalAlignment="Right" Width="60" Click="Zamknij">Zamknij</Button>
+        
+        </DockPanel>
+    </StackPanel>
+</Window>
